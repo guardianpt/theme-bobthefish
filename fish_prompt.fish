@@ -317,8 +317,8 @@ function __bobthefish_start_segment -S -d 'Start a prompt segment'
     set -l fg $argv[1]
     set -e argv[1]
 
-    set_color normal # clear out anything bold or underline...
-    set_color -b $bg $fg $argv
+    #set_color normal # clear out anything bold or underline...
+    #set_color -b $bg $fg $argv
 
     switch "$__bobthefish_current_bg"
         case ''
